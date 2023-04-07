@@ -21,7 +21,15 @@
         "commands": [
             {
                 "command": "extension.convertRem",
-                "title": "Convert rem2 to rem(px)"
+                "title": "Convert Rem"
+            }
+        ],
+        "keybindings": [
+            {
+                "command": "extension.convertRem",
+                "key": "alt+r",
+                "mac": "cmd+r",
+                "when": "editorTextFocus"
             }
         ]
     },
